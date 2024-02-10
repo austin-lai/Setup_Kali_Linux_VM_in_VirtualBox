@@ -166,7 +166,7 @@ Description:
              Please select 'set-terminal' if you are running this for the first time.
              After successful running 'set-terminal', then run 'system-update'.
       Usage:
-             ./kali-linux-Virtualbox-init.sh [options]
+             ./kali-linux-virtualbox-init.sh [options]
 
     Options:
             -h:  Display this help message (--help, /?).
@@ -176,11 +176,11 @@ Description:
  system-update:  Doing system-update with 'apt update'.
 ```
 
-The `kali-linux-Virtualbox-init.sh` file can be found [here](kali-linux-virtualbox-init.sh) or below:
+The `kali-linux-virtualbox-init.sh` file can be found [here](kali-linux-virtualbox-init.sh) or below:
 
 <details>
 
-<summary><span style="padding-left:10px;">Click here to expand for the "kali-linux-Virtualbox-init.sh" !!!</span></summary>
+<summary><span style="padding-left:10px;">Click here to expand for the "kali-linux-virtualbox-init.sh" !!!</span></summary>
 
 ```bash
 #!/bin/bash
