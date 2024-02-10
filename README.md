@@ -18,7 +18,7 @@
     - [Disclaimer](#disclaimer)
     - [Description](#description)
     - [virtualbox import and modifyvm powershell script](#virtualbox-import-and-modifyvm-powershell-script)
-    - [init script](#init-script)
+[init script](#init-script)t--1)
         - [set-terminal](#set-terminal)
         - [system-update](#system-update)
         - [sshkey](#sshkey)
@@ -57,7 +57,7 @@ This project/repository is a local setup of <span style="color: red; font-weight
     - This setup has a `virtualbox-import-and-modifyvm` powershell script:
         - [virtualbox import and modifyvm powershell script](#virtualbox-import-and-modifyvm-powershell-script)
     - This setup has a bash script file:
-        - [init script](#init-script)
+[init script](#init-script)
     - Please change the configuration accordingly to suits your hosting environment.
 
 <!-- /Description -->
@@ -154,7 +154,7 @@ Write-Host "Kali Linux virtual machine configuration completed."
 
 <br>
 
-## init script
+## init script -1
 
 This project/repository has a helper shell script with description and usage as shown below:
 
