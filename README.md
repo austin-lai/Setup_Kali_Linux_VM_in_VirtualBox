@@ -18,7 +18,7 @@
     - [Disclaimer](#disclaimer)
     - [Description](#description)
     - [virtualbox import and modifyvm powershell script](#virtualbox-import-and-modifyvm-powershell-script)
-    - [init script -1](#init-script--1)
+    - [init script](#init-script)
         - [set-terminal](#set-terminal)
         - [system-update](#system-update)
         - [sshkey](#sshkey)
@@ -152,9 +152,11 @@ VBoxManage sharedfolder add "kali-linux-2023.4-virtualbox-amd64" --name "virtual
 Write-Host "Kali Linux virtual machine configuration completed."
 ```
 
+</details>
+
 <br>
 
-## init script -1
+## init script
 
 This project/repository has a helper shell script with description and usage as shown below:
 
