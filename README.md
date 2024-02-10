@@ -18,7 +18,7 @@
     - [Disclaimer](#disclaimer)
     - [Description](#description)
     - [virtualbox import and modifyvm powershell script](#virtualbox-import-and-modifyvm-powershell-script)
-[init script](#init-script)t--1)
+    - [init script -1](#init-script--1)
         - [set-terminal](#set-terminal)
         - [system-update](#system-update)
         - [sshkey](#sshkey)
