@@ -2,7 +2,6 @@
 $archivePath = "C:\kali-linux-2023.4-virtualbox-amd64.7z"
 $extractedPath = "C:\virtual-machines-storage"
 $vboxFilePath = "C:\virtual-machines-storage\kali-linux-2023.4-virtualbox-amd64\kali-linux-2023.4-virtualbox-amd64.vbox"
-$diskName = "kali-linux-2023.4-virtualbox-amd64.vdi"
 
 # Set VM name
 $vmName = "kali-linux-2023.4-virtualbox-amd64"
