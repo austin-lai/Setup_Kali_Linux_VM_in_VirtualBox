@@ -9,14 +9,19 @@ $vmName = "kali-linux-2023.4-virtualbox-amd64"
 # Extract the 7z archive using Bandizip CLI
 bandizip.exe x -y $archivePath $extractedPath
 
+# Register the virtual machine to VirtualBox
+VBoxManage registervm "$vboxFilePath"
+
+Start-Sleep -Seconds 2
+
+# Attach the virtual machine to grouping
+VBoxManage modifyvm $vmName --groups "/Hack_Lab/Attacker"
+
 # Enable hot-pluggable hard disk
 VBoxManage storageattach $vmName --storagectl "SATA Controller" --device 0 --port 0 --type hdd --hotpluggable on
 
 # Select USB3 Controller
 VBoxManage modifyvm $vmName --usbxhci on
-
-# Register the virtual machine to VirtualBox
-VBoxManage registervm "$vboxFilePath"
 
 # Enable 3D acceleration
 VBoxManage modifyvm $vmName --accelerate3d on
